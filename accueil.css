@@ -1,0 +1,119 @@
+header{
+   background-color:#b70000;
+   padding-left:100px;
+   padding: 17px 10%;
+   justify-content: flex-end;
+
+}
+body {
+background-color:#eeeeee;}
+
+.baye{
+font-family:monotype corsiva; 
+   font-size:50px;
+   color:white;
+}
+ul{
+	list-style:none;
+ overflow:hidden;
+ white-space:nowrap;
+   font-size:15px;
+   
+}
+li {float:left;}
+li a {
+	padding:20px;
+	display:block;
+	color:white;
+	text-decoration:none;
+}
+ li a:hover{
+	 margin-left:20px;
+	 padding:10px 30px;
+     cursor:pointer;
+	 background-color:#7c0000;;
+ } 
+ footer{
+    display: flex;
+    align-items: center;
+    padding: 17px 10%;
+    background-color:#f9f9e2;
+    color:black;
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+    font-size: 14px;
+}
+
+
+.page-header{
+   color: rgb(34, 34, 34);
+   font-weight: bold;
+   line-height: 1.3333;
+   margin-bottom: 1em;
+   padding: 10px 10px 10px;
+   border-bottom: 1px solid rgb(221,221,221);
+
+}
+
+.flotte {
+   float:left;
+   margin-right: 50px;
+   line-height: 1.3333;
+   margin-bottom: 1em;
+   padding: 10px 10px 10px;
+   border-bottom: 1px solid rgb(221,221,221);
+   }
+   .container {
+       width: 80%;
+       height: auto;
+       margin-right: auto;
+       margin-left: auto;
+       padding-top: 50px;
+   }
+
+  /*slider*/
+   figure{
+      display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 500px
+   }
+ #caroussel{
+      
+     width: 2000px;
+     overflow: hidden;
+    /* border: 2px solid #333;*/
+   }
+   .images{
+     display: flex;
+     animation-duration: 20s;
+     animation-name: mesImages;
+     animation-iteration-count:infinite; 
+   }
+   @keyframes mesImages {
+       0%{
+       transform: translateX(0);
+     }
+     25%{
+       transform: translateX(-500px);
+     }
+     50%{
+       transform: translateX(-1000px);
+ 
+     }
+     75%{
+       transform: translateX(-1500px);
+     }
+     
+     100%{
+       transform: translateX(0);
+     }
+   }
+ .faye{
+    float: left;
+    padding: 50px;
+ }
+ .amm{
+   padding: 50px;
+ }
